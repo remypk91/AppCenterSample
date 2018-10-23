@@ -1,0 +1,30 @@
+PODS:
+  - AppCenter (1.8.0):
+    - AppCenter/Analytics (= 1.8.0)
+    - AppCenter/Crashes (= 1.8.0)
+  - AppCenter/Analytics (1.8.0):
+    - AppCenter/Core
+  - AppCenter/Core (1.8.0)
+  - AppCenter/Crashes (1.8.0):
+    - AppCenter/Core
+  - AppCenter/Push (1.8.0):
+    - AppCenter/Core
+  - VSMobileCenterExtensions (0.9.1)
+
+DEPENDENCIES:
+  - AppCenter
+  - AppCenter/Push
+  - VSMobileCenterExtensions
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AppCenter
+    - VSMobileCenterExtensions
+
+SPEC CHECKSUMS:
+  AppCenter: 7e7b42e94b70294d1de3d747f164f0c1668a28e1
+  VSMobileCenterExtensions: 5f8b4b284f6817c1d58e860bf7ad0945f1244733
+
+PODFILE CHECKSUM: 43006d93eabc84b53b7334ea41d5b49d66c6a13e
+
+COCOAPODS: 1.5.3
